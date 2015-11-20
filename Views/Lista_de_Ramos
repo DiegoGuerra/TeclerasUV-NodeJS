@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>DesarrolloWeb</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+	 <link rel="stylesheet"  href="css/bootstrap.min.css">
+	 <script src="https://code.jquery.com/jquery.js"></script>
+	 <script src="dist/js/bootstrap.min.js"></script>
+	 <script src="http://code.jquery.com/jquery-latest.js"></script>
+	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<center>
+	<h1>Lista De Ramos</h1>
+	</center>
+	<br></br>
+ 	<table class="table table-bordered table-striped table-hover">
+ 		<thead>
+        <tr>
+            
+            <th>Nombre Ramo</th>
+            <th>Número de Preguntas</th>
+            <th>Seleccionar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            
+            <td>Ramo 1</td>
+            <td>9</td>
+           
+            <td><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-share-alt" ></span></button>
+            </td>
+            
+
+        </tr>
+        <tr>
+            
+            <td>Ramo 2</td>
+            <td>23</td>
+            <td><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-share-alt"></button></td>
+        </tr>
+        <tr>
+           
+            <td>Ramo 3</td>
+            <td>17</td>
+            <td><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-share-alt"></button></td>
+        </tr>
+         <tr>
+           
+            <td>Ramo 4</td>
+            <td>13</td>
+            <td><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-share-alt"></button></td>
+        </tr>
+    </tbody>
+
+ 	</table>
+</body>
